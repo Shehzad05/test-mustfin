@@ -1,11 +1,11 @@
 import streamlit as st
-from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.chains import RetrievalQA
 from langchain.llms import OpenAI
 from langchain.memory import ConversationBufferMemory
 from langchain.prompts import PromptTemplate
 from langchain.vectorstores import Pinecone
 import pinecone
+from langchain.embeddings.openai import OpenAIEmbeddings
 import os
 
 # Set your OpenAI API key and Pinecone API key here
