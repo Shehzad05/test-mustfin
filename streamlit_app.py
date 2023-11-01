@@ -9,7 +9,7 @@ from langchain.embeddings.openai import OpenAIEmbeddings
 import os
 
 # Set your OpenAI API key and Pinecone API key here
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 pinecone.init(api_key='47c87c2b-d5fe-4df0-ae0e-2514cccb1cdb', environment='gcp-starter')
 
 llm = OpenAI()
